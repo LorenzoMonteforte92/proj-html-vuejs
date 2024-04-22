@@ -1,0 +1,12 @@
+@use './partials/variables' as *;
+
+body{
+    color: $font-color;
+}
+
+ul{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+    }
+}
