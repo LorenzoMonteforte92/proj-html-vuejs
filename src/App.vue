@@ -2,12 +2,14 @@
 import { store } from './store.js';
 import AppHeader from './components/AppHeader.vue';
 import AppHero from './components/AppHero.vue';
+import AppCoaching from './components/AppCoaching.vue';
 
 
 export default {
   components: {
     AppHeader,
     AppHero,
+    AppCoaching,
 
   },
 
@@ -54,6 +56,7 @@ export default {
 <template>
   <AppHeader :navLinks="headerNavLinks" ></AppHeader>
   <AppHero></AppHero>
+  <AppCoaching></AppCoaching>
 </template>
 
 <style lang="scss">
