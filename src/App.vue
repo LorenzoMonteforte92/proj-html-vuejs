@@ -11,7 +11,32 @@ export default {
 
   data() {
     return {
-      store
+      store,
+      headerNavLinks: [
+         {
+          title: 'Home'
+         },
+
+         {
+          title: 'Pages'
+         },
+
+         {
+          title: 'Courses'
+         },
+
+         {
+          title: 'Features'
+         },
+
+         {
+          title: 'Blog'
+         },
+
+         {
+          title: 'Shop'
+         },
+      ]
     };
   },
   
@@ -25,10 +50,11 @@ export default {
 </script>
 
 <template>
-  <AppHeader></AppHeader>
+  <AppHeader :navLinks="headerNavLinks" ></AppHeader>
 </template>
 
-<style>
-
+<style lang="scss">
+  @use './style/generic';
 </style>
+
 
