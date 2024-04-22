@@ -23,6 +23,8 @@
         <button class="btn fw-bold text-white px-4">Get Started</button>
     </div>
     <div class="artist-hero position-absolute" ><img src="../assets/img/artist-hero-image-04.jpg" alt="artist image"></div>
+    <div class="artist-monkey position-absolute" ><img src="../assets/img/artist-hero-image-01.jpg" alt="artist image"></div>
+    <div class="artist-paint position-absolute" ><img src="../assets/img/artist-hero-image-02.jpg" alt="artist image"></div>
     
 </div>
 </template>
@@ -57,5 +59,26 @@
     img{
         width: 100%;
     }
+}
+
+.artist-monkey{
+    max-width: 8%;
+    left: 8%;
+    bottom: 7%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 3;
+        img{
+            width: 100%;
+        }
+}
+
+.artist-paint{
+    max-width: 10%;
+    left: 15%;
+    top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        img{
+            width: 100%;
+        }
 }
 </style>
