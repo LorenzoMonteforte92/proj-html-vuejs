@@ -33,12 +33,11 @@
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
 .hero{
-    // background: url('../assets/img/artist-shape-02.png') left no-repeat, url('../assets/img/artist-shape-01.png') 80% no-repeat contain, url('../assets/img/artist-hero-image-03.png') 20% no-repeat, ;
     background-image: url('../assets/img/artist-shape-02.png'), url('../assets/img/artist-shape-01.png'), url('../assets/img/artist-hero-image-03.png'), url('../assets/img/artist-shape-03.png'), url('../assets/img/paint.png'), url('../assets/img/artist-shape-04.png'), url('../assets/img/artist-shape-05.png'), url('../assets/img/artist-shape-03.png') ;
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
     background-position: left, 97% 0%, 25% 100%, 1%, -8% 120%, 98% 12%, 98% 100%, 88% 110%;
     background-size: contain, 30%, 9%, 13%, 35%, 7%, 18%, 10%;
-    min-height: 380px;
+    min-height: 450px;
     
 }
 
@@ -53,7 +52,7 @@
 }
 
 .artist-hero{
-    max-width: 15%;
+    max-width: 18%;
     right: 8%;
     top: 15%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -63,7 +62,7 @@
 }
 
 .artist-monkey{
-    max-width: 8%;
+    max-width: 10%;
     left: 8%;
     bottom: 7%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -74,7 +73,7 @@
 }
 
 .artist-paint{
-    max-width: 10%;
+    max-width: 12%;
     left: 15%;
     top: 3%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

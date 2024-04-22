@@ -26,14 +26,16 @@
             <button class="btn fw-bold text-white px-4">Get Started</button>
             </div>
         </div>
+    </div>
+    <div class="container">
         <div class="row header-bottom py-3">
-            <div class="col-3 d-flex justify-content-center align-items-center"><img src="../assets/img/dark-logo.png" alt=""></div>
+            <div class="col-3 d-flex  align-items-center"><img src="../assets/img/dark-logo.png" alt=""></div>
             <div class="col-6 d-flex justify-content-center align-items-center">
                 <ul class="p-0 d-flex justify-content-center align-items-center gap-5 m-0" >
                     <li  v-for="singleLink in navLinks" class="d-flex align-items-center gap-2" ><a href="#">{{ singleLink.title }}</a> <i class="fa-solid fa-chevron-down"></i></li>
                 </ul>
             </div>
-            <div class="col-3 d-flex justify-content-center align-items-center ms-font-color gap-4">
+            <div class="col-3 d-flex justify-content-end align-items-center ms-font-color gap-4">
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-instagram"></i>
