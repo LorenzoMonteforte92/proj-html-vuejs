@@ -83,6 +83,6 @@
 }
 
 .martin img{
-    max-width: 90% ;
+    max-width: 50% ;
 }
 </style>

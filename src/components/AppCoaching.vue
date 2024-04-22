@@ -21,8 +21,8 @@
         <div class="container">
             <div class="row justify-content-center my-4">
                 <div class="col-5 d-flex justify-content-center flex-column">
-                    <div class="ps-4" ><img src="../assets/img/artist.png" alt=""></div>
-                    <h2 class="text-center" >I understand what it takes to create. I can help you with</h2>
+                    <div class="artist-logo text-center " ><img class="artists" src="../assets/img/artist.png" alt=""></div>
+                    <h2 class="text-center " >I understand what it takes to create. I can help you with</h2>
                 </div>
             </div>
             <div class="row ps-5">
@@ -66,5 +66,13 @@
         h5{
             align-self: start;
         }
+    }
+
+    .artist-logo{
+        margin: auto;
+    }
+
+    .artists{
+        max-width: 55%;
     }
 </style>
