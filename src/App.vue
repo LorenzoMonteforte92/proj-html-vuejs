@@ -1,11 +1,13 @@
 <script>
 import { store } from './store.js';
 import AppHeader from './components/AppHeader.vue';
-  
+import AppHero from './components/AppHero.vue';
+
 
 export default {
   components: {
     AppHeader,
+    AppHero,
 
   },
 
@@ -51,6 +53,7 @@ export default {
 
 <template>
   <AppHeader :navLinks="headerNavLinks" ></AppHeader>
+  <AppHero></AppHero>
 </template>
 
 <style lang="scss">
