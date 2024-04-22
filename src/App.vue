@@ -4,6 +4,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppHero from './components/AppHero.vue';
 import AppCoaching from './components/AppCoaching.vue';
 import AppMentor from './components/AppMentor.vue';
+import AppYoutube from './components/AppYoutube.vue';
 
 export default {
   components: {
@@ -11,6 +12,7 @@ export default {
     AppHero,
     AppCoaching,
     AppMentor,
+    AppYoutube,
 
   },
 
@@ -60,6 +62,7 @@ export default {
     <AppHero></AppHero>
     <AppCoaching></AppCoaching>
     <AppMentor></AppMentor>
+    <AppYoutube></AppYoutube>
   </main>   
 </template>
 
