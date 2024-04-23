@@ -88,7 +88,7 @@
     <section class="my-4" >
         <div class="container">
             <div class="row">
-                <div class="col-12 d-flex flex-wrap gap-4">
+                <div class="col-12 d-flex flex-wrap gap-4 pb-3">
                     <div v-for="singleCard, index in cardInfo" 
                     class="card position-relative" 
                     
@@ -99,7 +99,7 @@
                         <img :src="`src/assets/img/${singleCard.img}`" class="card-img-top mb-4" alt="...">
                         <!-- normal card text -->
                         <div
-                        class="card-body d-flex flex-column"
+                        class="card-body ms-card-body d-flex flex-column"
                         :class="{'d-none' : singleCard.over }">
                             <div class="flex-grow-1 " >
                                 <h6 class="card-price" >{{singleCard.price}}</h6>
@@ -144,8 +144,15 @@
         height: 100%;
     }
 
+    
+
     .card{
         border: none;
+       
+    }
+
+    .ms-card-body{
+        height: 100%;
     }
 
     .card-price{
@@ -156,10 +163,9 @@
         border: solid 2px $brand-secondary-color;
         background-color: white;
         width: 90%;
-        height: 35%;
-        top: 50%;
+        height: 50%;
+        top: 70%;
         margin-bottom: -5%;
-        z-index: 3;
         display: none;
     }
 </style>

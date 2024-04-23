@@ -7,6 +7,7 @@ import AppMentor from './components/AppMentor.vue';
 import AppYoutube from './components/AppYoutube.vue';
 import AppTestimonials from './components/AppTestimonials.vue';
 import AppCourses from './components/AppCourses.vue';
+import AppBlog from './components/AppBlog.vue';
 
 export default {
   components: {
@@ -17,6 +18,7 @@ export default {
     AppYoutube,
     AppTestimonials,
     AppCourses,
+    AppBlog,
 
   },
 
@@ -69,6 +71,7 @@ export default {
     <AppYoutube></AppYoutube>
     <AppTestimonials></AppTestimonials>
     <AppCourses></AppCourses>
+    <AppBlog></AppBlog>
   </main>   
 </template>
 
