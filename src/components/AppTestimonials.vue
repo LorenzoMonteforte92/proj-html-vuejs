@@ -17,6 +17,7 @@
 </script>
 
 <template>
+                                                       <!-- completare scritte -->
     <section>
         <div class="container-fluid p-5">
             <div class="row justify-content-center my-4">
@@ -30,29 +31,42 @@
                     <div class="card " style="width: calc(100% / 3);">
                         <div class="card-body">
                             <h5 class="card-title">It's a choice of quality for people with special needs</h5>
-                            <p class="card-text">I'm a very strict person so I require everithing to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys got me.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <p class="card-text ">I'm a very strict person so I require everithing to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys got me.</p>
+                        </div>
+                        <div class="card-body  d-flex align-items-center gap-3" >
+                            <div class=" ms-card-img" ><img class="rounded-circle "  src="../assets/img/artist-testimonial-avatar-02.jpg" alt=""></div>
+                            <div>
+                                <h6>Florence Themes</h6>
+                                <small>/ Multimedia Admin</small>
+                            </div>
                         </div>
                     </div>
 
                     <div class="card " style="width: calc(100% / 3);">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <h5 class="card-title">High level of efficiency nd scientific teaching methods</h5>
+                            <p class="card-text ">I'm a very strict person so I require everithing to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys got me.</p>
+                        </div>
+                        <div class="card-body  d-flex align-items-center gap-3" >
+                            <div class=" ms-card-img" ><img class="rounded-circle "  src="../assets/img/artist-testimonial-avatar-04.jpg" alt=""></div>
+                            <div>
+                                <h6>Mina Hollace</h6>
+                                <small>/ Freelancer</small>
+                            </div>
                         </div>
                     </div>
 
                     <div class="card " style="width: calc(100% / 3);">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                            <h5 class="card-title">It's a choice of quality for people with special needs</h5>
+                            <p class="card-text ">I'm a very strict person so I require everithing to be organized and neat. Then, I'll be able to make things right and shine. MaxCoach guys got me.</p>
+                        </div>
+                        <div class="card-body  d-flex align-items-center gap-3" >
+                            <div class=" ms-card-img" ><img class="rounded-circle "  src="../assets/img/artist-testimonial-avatar-01.jpg" alt=""></div>
+                            <div>
+                                <h6>Florence Themes</h6>
+                                <small>/ Multimedia Admin</small>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -64,20 +78,28 @@
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
 
-section{
-    background-color: #FAF8F6;
-}
+    section{
+        background-color: #FAF8F6;
+    }
 
-.card{
-    border: none;
-}
+    .card{
+        border: none;
 
-.ms-card{
-    opacity: 0.5;
-}
+            .ms-card-img {
+                width: 20%;
+                    img{
+                        width: 100%
+                    }
+                
+            }
+    }
 
-.ms-active-card{
-    opacity: 1;
-}
+    .ms-card{
+        opacity: 0.5;
+    }
+
+    .ms-active-card{
+        opacity: 1;
+    }
 
 </style>
