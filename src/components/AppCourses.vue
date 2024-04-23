@@ -85,12 +85,12 @@
 </script>
 
 <template>
-    <section class="my-4" >
+    <section class="" >
         <div class="container">
             <div class="row pb-4">
-                <div class="col-12 d-flex flex-wrap gap-4 pb-5">
+                <div class="col-12 d-flex flex-wrap gap-4 mb-4">
                     <div v-for="singleCard, index in cardInfo" 
-                    class="card position-relative flex-grow-1" 
+                    class="card position-relative" 
                     
                     style="width: calc(100% / 4 - 1.5rem);"
                     @mouseenter="makeOverCardAppear(index)"
@@ -134,6 +134,8 @@
 <style scoped lang="scss">
 @use '../style/partials/variables' as *;
 
+
+
     section{
         background-image: url('../assets/img/artist-shape-01-copia.png');
         background-position: 100%;
@@ -141,11 +143,12 @@
 
     .card{
         border: none;
+       
     }
-
 
     .card-body{
         height: 100%;
+        
     }
 
     .card-price{
