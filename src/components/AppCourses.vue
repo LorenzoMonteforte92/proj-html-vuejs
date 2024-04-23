@@ -87,10 +87,10 @@
 <template>
     <section class="my-4" >
         <div class="container">
-            <div class="row">
-                <div class="col-12 d-flex flex-wrap gap-4 pb-3">
+            <div class="row pb-4">
+                <div class="col-12 d-flex flex-wrap gap-4 pb-5">
                     <div v-for="singleCard, index in cardInfo" 
-                    class="card position-relative" 
+                    class="card position-relative flex-grow-1" 
                     
                     style="width: calc(100% / 4 - 1.5rem);"
                     @mouseenter="makeOverCardAppear(index)"
@@ -98,9 +98,8 @@
                     >
                         <img :src="`src/assets/img/${singleCard.img}`" class="card-img-top mb-4" alt="...">
                         <!-- normal card text -->
-                        <div
-                        class="card-body ms-card-body d-flex flex-column"
-                        :class="{'d-none' : singleCard.over }">
+                        <div class="card-body"
+                        :class="{'d-none' : singleCard.over}">
                             <div class="flex-grow-1 " >
                                 <h6 class="card-price" >{{singleCard.price}}</h6>
                                 <h6 class="mt-3" >{{singleCard.title}}</h6>
@@ -113,7 +112,7 @@
                         <!-- /normal card text -->
 
                         <!-- over card text -->
-                        <div :class="{'d-flex' : singleCard.over }"
+                        <div :class="{'d-flex' : singleCard.over}"
                         class="card-body body-hover flex-column position-absolute">
                             <div class="flex-grow-1 " >
                                 <h6 class="card-price" >{{singleCard.price}}</h6>
@@ -140,18 +139,12 @@
         background-position: 100%;
     }
 
-    .col-12{
-        height: 100%;
-    }
-
-    
-
     .card{
         border: none;
-       
     }
 
-    .ms-card-body{
+
+    .card-body{
         height: 100%;
     }
 
@@ -163,9 +156,8 @@
         border: solid 2px $brand-secondary-color;
         background-color: white;
         width: 90%;
-        height: 50%;
-        top: 70%;
-        margin-bottom: -5%;
+        height: 30%;
+        top: 50%;
         display: none;
     }
 </style>
