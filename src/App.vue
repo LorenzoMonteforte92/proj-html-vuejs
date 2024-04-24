@@ -9,7 +9,8 @@ import AppTestimonials from './components/AppTestimonials.vue';
 import AppCourses from './components/AppCourses.vue';
 import AppBlog from './components/AppBlog.vue';
 import AppEvents from './components/AppEvents.vue';
-import AppNewsletter from './components/AppNewsletter.vue';;
+import AppNewsletter from './components/AppNewsletter.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   components: {
@@ -23,6 +24,7 @@ export default {
     AppBlog,
     AppEvents,
     AppNewsletter,
+    AppFooter
 
   },
 
@@ -53,7 +55,63 @@ export default {
          {
           title: 'Shop'
          },
+      ],
+
+      addressLinks:[
+          {
+          title: '382 NE 191st St # 87394 Miami 33179-3899'
+         },
+
+         {
+          title: '+1 (305) 547-9909 (9am - 5pm EST, Monday-Friday)'
+         },
+
+         {
+          title: 'support@maxcoach.com'
+         },
+      ],
+
+      exploreLinks:[
+          {
+          title: 'Start here'
+         },
+
+         {
+          title: 'Success Story'
+         },
+
+         {
+          title: 'Blog'
+         },
+
+         {
+          title: 'Courses'
+         },
+
+         {
+          title: 'Contact Us'
+         },
+      ],
+
+      informationLinks:[
+          {
+          title: 'Membership'
+         },
+
+         {
+          title: 'Purchase Guide'
+         },
+
+         {
+          title: 'Privacy policy'
+         },
+
+         {
+          title: 'Term of service'
+         },
+
       ]
+
     };
   },
   
@@ -78,7 +136,8 @@ export default {
     <AppBlog></AppBlog>
     <AppEvents></AppEvents>
     <AppNewsletter></AppNewsletter>
-  </main>   
+  </main>
+  <AppFooter :address="addressLinks" :explore="exploreLinks" :information="informationLinks"></AppFooter>   
 </template>
 
 <style lang="scss">
