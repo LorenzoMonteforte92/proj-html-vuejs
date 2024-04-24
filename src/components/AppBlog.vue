@@ -24,9 +24,19 @@
                     <div class="ps-4 text-center" ><img src="../assets/img/blog.png" alt=""></div>
                     <h2 class="text-center" >Latest from the Blog</h2>
                 </div>
-                <div class="col"></div>
+                <div class="col d-flex flex-column justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../assets/img/artist-blog-03-480x356.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="card-text text-start ">ARTIST</small>
+                            <h6 class="card-text text-start my-3" >Brush Stroke Energize Trees in Paintings</h6>
+                            <small class="card-text me-5"><i class="fa-regular fa-calendar"></i> May 15, 2020</small>
+                            <small class="card-text"><i class="fa-regular fa-eye"></i> 688 views</small>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-6 d-flex justify-content-center position-relative">
-                    <div class="card position-relative" style="width: 70%;">
+                    <div class=" ms-card card position-relative" style="width: 70%;">
                         <img src="../assets/img/artist-blog-02-500x680.jpg" class="card-img-top" alt="...">
                         <div class="card-body position-absolute">
                             <small class="card-text text-start text-white ">ARTIST</small>
@@ -36,7 +46,17 @@
                         </div>
                     </div>
                 </div>
-                <div class="col"></div>
+                <div class="col position-relative">
+                    <div class="card ms-small-card position-absolute" style="width: 18rem;">
+                        <img src="../assets/img/artist-blog-01-480x356.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <small class="card-text text-start">ARTIST</small>
+                            <h6 class="card-text text-start my-3" >Pocket-sized Notebooks Hold Miniature Paintings</h6>
+                            <small class="card-text me-5"><i class="fa-regular fa-calendar"></i> May 15, 2020</small>
+                            <small class="card-text"><i class="fa-regular fa-eye"></i> 603 views</small>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -49,12 +69,19 @@
         background-image: url('../assets/img/maxcoach-shape-14');
     }
 
-    .card{
+    
+   
+    .ms-card{
+    
         .card-body{
             bottom: 0;
         }
         img{
             width: 100%;
         }
+    }
+
+    .ms-small-card{
+        top: 6%;
     }
 </style>
