@@ -9,6 +9,7 @@ import AppTestimonials from './components/AppTestimonials.vue';
 import AppCourses from './components/AppCourses.vue';
 import AppBlog from './components/AppBlog.vue';
 import AppEvents from './components/AppEvents.vue';
+import AppNewsletter from './components/AppNewsletter.vue';;
 
 export default {
   components: {
@@ -21,6 +22,7 @@ export default {
     AppCourses,
     AppBlog,
     AppEvents,
+    AppNewsletter,
 
   },
 
@@ -75,6 +77,7 @@ export default {
     <AppCourses></AppCourses>
     <AppBlog></AppBlog>
     <AppEvents></AppEvents>
+    <AppNewsletter></AppNewsletter>
   </main>   
 </template>
 
