@@ -25,23 +25,16 @@
                     <h2 class="text-center" >Latest from the Blog</h2>
                 </div>
                 <div class="col"></div>
-                <div class="col-6 text-center d-flex ">
-                    <!-- <div class="article-img " >
-                        <img src="../assets/img/artist-blog-02-500x680.jpg" alt="">
-                    </div>
-                        <div class="article-txt text-start position-absolute" >
-                            <small>fghfd</small>
-                            <h3>dfghjhgdfghjkhgfdsdfghjkjhgfddfghjkjhgfdssdfghjklòlkjhgfdfds</h3>
-                            <small class="me-2">dfghjhgfd</small>
-                            <small>dfghjhgfds</small>
-                        </div> -->
-                    
-                        <div class="card" style="width: 90%;">
+                <div class="col-6 d-flex justify-content-center position-relative">
+                    <div class="card position-relative" style="width: 70%;">
                         <img src="../assets/img/artist-blog-02-500x680.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="card-body position-absolute">
+                            <small class="card-text text-start text-white ">ARTIST</small>
+                            <h3 class="card-text text-start text-white my-3" >Connection Between Self-Portraits and Identity</h3>
+                            <small class="card-text text-white me-5"><i class="fa-regular fa-calendar"></i> May 15, 2020</small>
+                            <small class="card-text text-white"><i class="fa-regular fa-eye"></i> 397 views</small>
                         </div>
-                        </div>
+                    </div>
                 </div>
                 <div class="col"></div>
             </div>
@@ -56,17 +49,12 @@
         background-image: url('../assets/img/maxcoach-shape-14');
     }
 
-    .article-txt{
-        left: 5%;
-        bottom: 0;
-    }
-
-    .article-img{
-        height: 80%;
-
-            img{
-                width: 100%;
-            }
-
+    .card{
+        .card-body{
+            bottom: 0;
+        }
+        img{
+            width: 100%;
+        }
     }
 </style>
