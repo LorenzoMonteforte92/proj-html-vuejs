@@ -8,6 +8,7 @@ import AppYoutube from './components/AppYoutube.vue';
 import AppTestimonials from './components/AppTestimonials.vue';
 import AppCourses from './components/AppCourses.vue';
 import AppBlog from './components/AppBlog.vue';
+import AppEvents from './components/AppEvents.vue';
 
 export default {
   components: {
@@ -19,6 +20,7 @@ export default {
     AppTestimonials,
     AppCourses,
     AppBlog,
+    AppEvents,
 
   },
 
@@ -72,6 +74,7 @@ export default {
     <AppTestimonials></AppTestimonials>
     <AppCourses></AppCourses>
     <AppBlog></AppBlog>
+    <AppEvents></AppEvents>
   </main>   
 </template>
 

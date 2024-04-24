@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center my-5" >Get into details now? <span  ><a class="blog-link  fw-bold" href="#">View all posts <i class="fa-solid fa-arrow-right"></i></a></span></div>
+                <div class="text-center my-5" >Get into details now? <span><a class="blog-link  fw-bold" href="#">View all posts <i class="fa-solid fa-arrow-right"></i></a></span></div>
             </div>
         </div>
     </section>
