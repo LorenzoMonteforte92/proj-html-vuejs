@@ -19,7 +19,7 @@
 <template>
     <section>
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12 d-flex justify-content-center flex-column mb-5">
                     <div class="ps-4 text-center" ><img src="../assets/img/blog.png" alt=""></div>
                     <h2 class="text-center" >Latest from the Blog</h2>
@@ -57,12 +57,14 @@
                         </div>
                     </div>
                 </div>
+                <div class="text-center my-5" >Get into details now? <span  ><a class="blog-link  fw-bold" href="#">View all posts <i class="fa-solid fa-arrow-right"></i></a></span></div>
             </div>
         </div>
     </section>
 </template>
 
 <style scoped lang="scss">
+@use '../style/partials/variables' as *;
 
     section{
         background-color: #F5F7FA;
@@ -83,5 +85,9 @@
 
     .ms-small-card{
         top: 6%;
+    }
+
+    .blog-link{
+        color: #EF6F31;
     }
 </style>
