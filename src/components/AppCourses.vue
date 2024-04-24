@@ -141,13 +141,26 @@
         background-position: 100%;
     }
 
+    .container{
+        height: 100%;
+    }
+
+    .row{
+        height: 100%;
+    }
+
+    .col-12{
+        height: 100%;
+    }
+
     .card{
         border: none;
+        flex-grow: 1;
        
     }
 
     .card-body{
-        height: 100%;
+        height: 150px;
         
     }
 

@@ -4,7 +4,7 @@
 
         data(){
             return{
-                
+              activeItem: ''  
             }
         },
         methods: {
@@ -13,13 +13,13 @@
         }
 	
 
-    
+    //al click sulla card
 </script>
 
 <template>
                                                        <!-- completare scritte -->
     <section>
-        <div class="container-fluid p-5">
+        <div class="container-fluid p-5 my-5 ">
             <div class="row justify-content-center my-4">
                 <div class="col-5 d-flex justify-content-center flex-column">
                     <div class="ps-4 text-center" ><img src="../assets/img/testimonials.png" alt=""></div>
