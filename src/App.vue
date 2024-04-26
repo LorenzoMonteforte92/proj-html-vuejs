@@ -57,7 +57,7 @@ export default {
          },
       ],
 
-      addressLinks:[
+      positionLinks: [
           {
           title: '382 NE 191st St # 87394 Miami 33179-3899'
          },
@@ -71,7 +71,7 @@ export default {
          },
       ],
 
-      exploreLinks:[
+      exploreLinks: [
           {
           title: 'Start here'
          },
@@ -93,7 +93,7 @@ export default {
          },
       ],
 
-      informationLinks:[
+      informationLinks: [
           {
           title: 'Membership'
          },
@@ -125,7 +125,7 @@ export default {
 </script>
 
 <template>
-  <AppHeader :navLinks="headerNavLinks" ></AppHeader>
+  <AppHeader :navLinks="headerNavLinks"></AppHeader>
   <main>
     <AppHero></AppHero>
     <AppCoaching></AppCoaching>
@@ -137,7 +137,7 @@ export default {
     <AppEvents></AppEvents>
     <AppNewsletter></AppNewsletter>
   </main>
-  <AppFooter :address="addressLinks" :explore="exploreLinks" :information="informationLinks"></AppFooter>   
+  <AppFooter :positionNav="positionLinks" :explore="exploreLinks" :info="informationLinks"></AppFooter>   
 </template>
 
 <style lang="scss">

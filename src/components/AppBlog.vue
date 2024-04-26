@@ -18,7 +18,7 @@
 
 <template>
     <section>
-        <div class="container">
+        <div class="container pt-5">
             <div class="row justify-content-center">
                 <div class="col-12 d-flex justify-content-center flex-column mb-5">
                     <div class="ps-4 text-center" ><img src="../assets/img/blog.png" alt=""></div>
@@ -68,7 +68,10 @@
 
     section{
         background-color: #F5F7FA;
-        background-image: url('../assets/img/maxcoach-shape-14');
+        background-image: url('../assets/img/maxcoach-shape-14.png'), url('../assets/img/maxcoach-shape-05.png'), url('../assets/img/paint.png'), url('../assets/img/circle.png');
+        background-repeat: no-repeat;
+        background-position: 50%, 38% 25%, 70% 90%, 10% 25% ;
+
     }
 
     
