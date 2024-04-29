@@ -20,6 +20,13 @@
     <section class="mt-5" >
         <div class="container">
             <div class="row justify-content-center">
+                <div class="col-12 mb-4">
+                    <div class="text-center" >
+                        <img src="../assets/img/events.png" alt="">
+                    </div>
+                    <h2 class="text-center " >Let's Work Together</h2>
+                        
+                </div>
                 <div class="col-10 d-flex flex-wrap gap-3 row-gap-3">
                     <div class="card flex-row" style="width: calc(100% / 2 - 1rem);">
                         <img src="../assets/img/artist-event-04-250x300.jpg" class="card-img-top" alt="...">
