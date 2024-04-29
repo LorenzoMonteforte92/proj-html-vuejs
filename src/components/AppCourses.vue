@@ -88,6 +88,13 @@
     <section class="" >
         <div class="container">
             <div class="row pb-4">
+                <div class="col-12 mb-4">
+                    <div class="text-center" >
+                        <img src="../assets/img/artist.png" alt="">
+                    </div>
+                    <h2 class="text-center " >Latest Online Courses</h2>
+                        
+                </div>
                 <div class="col-12 d-flex flex-wrap gap-4 mb-4">
                     <div v-for="singleCard, index in cardInfo" 
                     class="card position-relative" 
